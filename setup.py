@@ -27,7 +27,7 @@ install_requires = [
 
 
 setup(
-    name="async-timeout",
+    name="async-timeout-pre",
     version=version,
     description=("Timeout context manager for asyncio programs"),
     long_description="\n\n".join([read("README.rst"), read("CHANGES.rst")]),
@@ -47,7 +47,7 @@ setup(
     author_email="andrew.svetlov@gmail.com",
     url="https://github.com/aio-libs/async_timeout/",
     license="Apache 2",
-    packages=["async_timeout"],
+    packages=["async_timeout_pre"],
     python_requires=">=3.5.3",
     install_requires=install_requires,
     include_package_data=True,
