@@ -21,7 +21,7 @@ setup(
     name="async-timeout-pre",
     version='4.0.0',
     description=("Timeout context manager for asyncio programs"),
-    long_description="\n\n".join([read("README.rst"), read("CHANGES.rst")]),
+    long_description="No long description, sorry",
     classifiers=[
         "License :: OSI Approved :: Apache Software License",
         "Intended Audience :: Developers",
